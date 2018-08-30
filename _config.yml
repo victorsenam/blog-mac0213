@@ -1,0 +1,14 @@
+url:              http://victorsenam.github.io/blog-mac0214/
+title:            Road to MAC0214
+baseurl:          '/blog-mac0214/'
+permalink:        pretty
+pygments:         true
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
+google_analytics: UA-21332781-7
+timezone:         Brazil/Sao_Paulo
+paginate: 5
+links: 
+  - name:         Stats
+    url:          /stats

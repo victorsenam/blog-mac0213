@@ -1,0 +1,17 @@
+---
+layout: index
+---
+
+<ul class="posts">
+  {% for post in site.posts %}
+	<li class="post">
+	  <h2 class="post-title" title="{{ post.title }}">
+		{{ post.title }} 
+	  </h2>
+	  <span class="meta">
+		{{ post.minutes | divided_by: 60 | floor }}:{{ post.minutes | modulo: 60 }} horas <br />
+	  </span>
+	  {{ post.content }}
+	</li>
+  {% endfor %}
+</ul>
