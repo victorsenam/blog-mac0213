@@ -1,12 +1,11 @@
-url:              http://victorsenam.github.io/blog-mac0214/
-title:            Road to MAC0214
-baseurl:          '/blog-mac0214/'
+url:              http://victorsenam.github.io/blog-mac0213/
+title:            Logs de trabalho em MAC0213
+baseurl:          '/blog-mac0213/'
 permalink:        pretty
-pygments:         true
+highlighter:	  rouge
 markdown:         rdiscount
 rdiscount:
   extensions:     [smart]
-google_analytics: UA-21332781-7
 timezone:         Brazil/Sao_Paulo
 paginate: 5
 links: 
