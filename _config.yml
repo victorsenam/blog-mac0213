@@ -4,7 +4,6 @@ baseurl:          '/blog-mac0213/'
 plugins:		  [jekyll-paginate]
 permalink:        pretty
 highlighter:	  rouge
-markdown:         rdiscount
 rdiscount:
   extensions:     [smart]
 timezone:         Brazil/Sao_Paulo
