@@ -9,4 +9,4 @@ solved: 0
     {% assign minutes = minutes | plus: post.minutes %}
 {% endfor %}
 
-- Horas Registradas: **{{ minutes | divided_by: 60 | floor }}:{{ minutes | modulo: 60 }}**
+{{ minutes | divided_by: 60 | floor }}:{{ minutes | modulo: 60 | divided_by: 10 | floor }}{{ minutes | modulo: 60 | modulo: 10 }} horas registradas.
