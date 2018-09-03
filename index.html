@@ -2,12 +2,20 @@
 layout: index
 ---
 
+{% for post in site.posts %}
+    {% assign minutes = minutes | plus: post.minutes %}
+{% endfor %}
+
+<h2>
+{{ minutes | divided_by: 60 | floor }}:{{ minutes | modulo: 60 | divided_by: 10 | floor }}{{ minutes | modulo: 60 | modulo: 10 }} horas registradas até agora
+</h2>
+
 <ul class="posts">
 	{% for post in site.posts %}
 	<li class="post">
 		<a href="{{ site.baseurl }}{{ post.url }}" class="post-link">
 			<h2 class="post-title" title="{{ post.title }}">
-				{{ post.title }} 
+				{{ post.title }}
 			</h2>
 			<span class="meta">
 				{{ post.minutes | divided_by: 60 | floor }}:{{ post.minutes | modulo: 60 | divided_by: 10 | floor }}{{ post.minutes | modulo: 60 | modulo: 10 }} horas<br />
