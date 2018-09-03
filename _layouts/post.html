@@ -15,9 +15,12 @@
               <header>
 
                 <h2 class="post-title">{{ page.title }}</h2>
+                {% if page.minutes %}
+          				{{ page.minutes | divided_by: 60 | floor }}:{{ page.minutes | modulo: 60 | divided_by: 10 | floor }}{{ page.minutes | modulo: 60 | modulo: 10 }} horas<br />
+                {% endif %}
                 {% if page.date %}
                   <small class="datetime muted">
-                    {{ page.date | date_to_string }} - 
+                    {{ page.date | date_to_string }} -
                     by <a href="https://github.com/victorsenam" target="_blank">@victorsenam</a>
                   </small>
                   <div class="pagination">

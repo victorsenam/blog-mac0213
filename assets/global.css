@@ -5,7 +5,7 @@ html, body {
   height: 100%; }
 
 body {
-  background: white;
+  background: #fff;
   color: #444;
   font-family: sans-serif;
   font-weight: 400;
@@ -61,13 +61,13 @@ p {
   opacity: .6; }
 
 .colour-1 {
-  color: #cc9944; }
+  color: #c94; }
 
 .colour-2 {
   color: #925; }
 
 .colour-3 {
-  color: #448844; }
+  color: #484; }
 
 .text-big {
   font-size: 24px;
@@ -117,3 +117,5 @@ pre, code {
   font-size: 13px;
   padding: 3px 5px;
   border-radius: 3px; }
+
+/*# sourceMappingURL=global.css.map */

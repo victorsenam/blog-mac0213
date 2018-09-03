@@ -1,2 +1,5 @@
 _site/
 _site/**
+.sass-cache
+package-lock.json
+assets/*.css.map

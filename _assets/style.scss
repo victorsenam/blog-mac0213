@@ -44,7 +44,7 @@ hr { border: 0; border-top: 1px solid rgba(255, 255, 255, .3); margin: 30px auto
   @include clearfix;
   padding: 20px 0;
   font-size: 12px;
-  nav a { 
+  nav a {
     @include inline-block;
     @include transition(1s);
     font-weight: 700;
@@ -76,9 +76,9 @@ hr { border: 0; border-top: 1px solid rgba(255, 255, 255, .3); margin: 30px auto
     &:hover .post-title { color: #8cf; text-shadow: 0 0 4px rgba(255, 255, 255, .5); }
     .meta {
       display: block;
-      font-size: 11px;
+      font-size: 14px;
       text-transform: uppercase;
-      color: #434343;
+      color: #dADADB;
       font-weight: 700;
       line-height: 1.3em;
     }
@@ -116,7 +116,7 @@ header {
 article {
   header {
     margin-bottom: 20px;
-  }  
+  }
   img {
     max-width: 100%;
     margin: 10px 0;
@@ -153,7 +153,7 @@ article {
 
 .pagination {
   height: 20px;
-  position: absolute; 
+  position: absolute;
   top: 62px;
   width: 100%;
   display: none;

@@ -1,13 +1,13 @@
 url:              http://victorsenam.github.io/blog-mac0213/
 title:            Logs de trabalho em MAC0213
 baseurl:          '/blog-mac0213/'
-plugins:		  [jekyll-paginate]
+plugins:          [jekyll-paginate]
 permalink:        pretty
-highlighter:	  rouge
+highlighter:      rouge
 rdiscount:
   extensions:     [smart]
 timezone:         Brazil/Sao_Paulo
-paginate: 5
-links: 
+paginate:         5
+links:
   - name:         Stats
     url:          /stats
